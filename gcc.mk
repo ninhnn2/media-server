@@ -25,6 +25,9 @@ endif
 #--------------------------------Compile-----------------------------
 #
 #--------------------------------------------------------------------
+
+CROSS=/opt/host/bin/arm-buildroot-linux-musleabihf-
+
 AR := $(CROSS)ar
 CC := $(CROSS)gcc
 CXX := $(CROSS)g++
